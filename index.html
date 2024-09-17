@@ -19,7 +19,7 @@
             text-align: center;
         }
         h1 {
-            margin: 10;
+            margin: 0;
         }
         .content {
             max-width: 800px;
@@ -42,7 +42,7 @@
             font-size: 16px;
         }
  	.spacer {
-            height: 20px; /* Spacer için boşluk miktarı */
+            height: 20px; 
         }
     </style>
 </head>
@@ -51,23 +51,20 @@
 <header>
     <h1>My Game Videos</h1>
 </header>
-<header>
-    <h1></h1>
-</header>
 <div class="content">
+       <div class="spacer"></div>
+
     <div class="video-section">
-        <video controls>
-            <source src="videos/video1.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+        <iframe src="https://studio.youtube.com/video/RRd2KNjozJM/edit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <div class="description">
             <p>Video 1 description goes here. You can describe the content or purpose of the video.</p>
         </div>
     </div>
+    </div>
 
     <div class="video-section">
         <video controls>
-            <source src="videos/video2.mp4" type="video/mp4">
+            <source src="videos/MatchDoku.MP4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <div class="description">
